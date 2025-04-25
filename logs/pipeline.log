@@ -1,0 +1,306 @@
+2025-04-23 20:30:04,485 - INFO - 783355396 - Notebook 01: Data Loading & EDA Started
+2025-04-23 20:30:30,375 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 20:30:35,794 - INFO - data_processing - Dataset fetched.
+2025-04-23 20:30:35,822 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 20:30:35,844 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 20:30:35,863 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 20:30:35,870 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 20:30:35,894 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 20:30:35,898 - INFO - 3238738325 - Data fetched and split successfully.
+2025-04-23 20:32:11,333 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:11,437 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:46,789 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:46,866 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:47,700 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:47,733 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:48,317 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:48,362 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:48,932 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:48,976 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:49,573 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:32:49,603 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:29,922 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:29,955 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:30,466 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:30,504 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:31,069 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:31,110 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:31,655 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:31,699 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:32,206 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:32,247 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:32,696 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:32,725 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:33,168 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:33,197 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:33,765 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:33,794 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:34,252 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:34,282 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:34,689 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:34,728 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:35,243 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:35,273 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:35,841 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:35,876 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:36,387 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:33:36,418 - INFO - category - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-23 20:37:00,727 - INFO - 3239302400 - Notebook 02: Model Training Started
+2025-04-23 20:37:00,842 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 20:37:04,839 - INFO - data_processing - Dataset fetched.
+2025-04-23 20:37:04,867 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 20:37:04,883 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 20:37:04,893 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 20:37:04,899 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 20:37:04,919 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 20:37:04,922 - INFO - 1711198423 - Data loaded/fetched for training.
+2025-04-23 20:37:04,954 - INFO - train - Starting model training: logistic_regression
+2025-04-23 20:37:04,958 - INFO - train - Fitting the full pipeline...
+2025-04-23 20:37:05,032 - INFO - train - Pipeline training completed.
+2025-04-23 20:37:05,051 - INFO - train - Trained pipeline saved to: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 20:37:05,060 - INFO - 1946664891 - 'logistic_regression' model trained and pipeline saved.
+2025-04-23 20:39:32,355 - INFO - 2645888654 - Notebook 03: Evaluation & Interpretation Started
+2025-04-23 20:39:58,661 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 20:40:02,774 - INFO - data_processing - Dataset fetched.
+2025-04-23 20:40:02,800 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 20:40:02,821 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 20:40:02,839 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 20:40:02,847 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 20:40:02,867 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 20:40:02,870 - INFO - 2386870479 - Data loaded for evaluation.
+2025-04-23 20:40:02,931 - INFO - 2386870479 - Loaded trained pipeline from: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 20:40:03,211 - INFO - evaluate - Starting model evaluation...
+2025-04-23 20:40:03,317 - INFO - evaluate - Evaluation Metrics:
+accuracy     0.868852
+precision    0.812500
+recall       0.928571
+f1_score     0.866667
+roc_auc      0.950216
+dtype: float64
+2025-04-23 20:40:03,365 - INFO - evaluate - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+2025-04-23 20:40:04,110 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_confusion_matrix.png
+2025-04-23 20:40:05,313 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_roc_curve.png
+2025-04-23 20:40:05,832 - INFO - evaluate - Generating SHAP explanations...
+2025-04-23 20:40:05,853 - ERROR - evaluate - Error during SHAP generation: name 'LogisticRegression' is not defined
+Traceback (most recent call last):
+  File "C:\Users\CCLeyton\bio-ml-jupyter\src\evaluate.py", line 93, in evaluate_model
+    if isinstance(model, LogisticRegression):
+                         ^^^^^^^^^^^^^^^^^^
+NameError: name 'LogisticRegression' is not defined
+2025-04-23 20:40:05,876 - INFO - 4188609191 - Evaluation complete.
+2025-04-23 23:15:07,736 - INFO - 2184502012 - Notebook 03: Evaluation & Interpretation Started
+2025-04-23 23:15:30,597 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 23:15:33,634 - INFO - data_processing - Dataset fetched.
+2025-04-23 23:15:33,704 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 23:15:33,745 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 23:15:33,759 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 23:15:33,764 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 23:15:33,832 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 23:15:33,839 - INFO - 2386870479 - Data loaded for evaluation.
+2025-04-23 23:15:33,912 - INFO - 2386870479 - Loaded trained pipeline from: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 23:15:34,184 - INFO - evaluate - Starting model evaluation...
+2025-04-23 23:15:34,322 - INFO - evaluate - Evaluation Metrics:
+accuracy     0.868852
+precision    0.812500
+recall       0.928571
+f1_score     0.866667
+roc_auc      0.950216
+dtype: float64
+2025-04-23 23:15:34,358 - INFO - evaluate - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+2025-04-23 23:15:34,909 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_confusion_matrix.png
+2025-04-23 23:15:35,608 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_roc_curve.png
+2025-04-23 23:15:35,991 - INFO - evaluate - Generating SHAP explanations...
+2025-04-23 23:15:36,009 - ERROR - evaluate - Error during SHAP generation: name 'LogisticRegression' is not defined
+Traceback (most recent call last):
+  File "C:\Users\CCLeyton\bio-ml-jupyter\src\evaluate.py", line 93, in evaluate_model
+    if isinstance(model, LogisticRegression):
+                         ^^^^^^^^^^^^^^^^^^
+NameError: name 'LogisticRegression' is not defined
+2025-04-23 23:15:36,034 - INFO - 4188609191 - Evaluation complete.
+2025-04-23 23:16:29,417 - INFO - 2645888654 - Notebook 03: Evaluation & Interpretation Started
+2025-04-23 23:16:30,158 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 23:16:32,499 - INFO - data_processing - Dataset fetched.
+2025-04-23 23:16:32,516 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 23:16:32,526 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 23:16:32,538 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 23:16:32,541 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 23:16:32,557 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 23:16:32,560 - INFO - 2386870479 - Data loaded for evaluation.
+2025-04-23 23:16:32,571 - INFO - 2386870479 - Loaded trained pipeline from: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 23:16:32,781 - INFO - evaluate - Starting model evaluation...
+2025-04-23 23:16:32,863 - INFO - evaluate - Evaluation Metrics:
+accuracy     0.868852
+precision    0.812500
+recall       0.928571
+f1_score     0.866667
+roc_auc      0.950216
+dtype: float64
+2025-04-23 23:16:32,897 - INFO - evaluate - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+2025-04-23 23:16:33,320 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_confusion_matrix.png
+2025-04-23 23:16:33,865 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_roc_curve.png
+2025-04-23 23:16:34,149 - INFO - evaluate - Generating SHAP explanations...
+2025-04-23 23:16:34,163 - ERROR - evaluate - Error during SHAP generation: name 'LogisticRegression' is not defined
+Traceback (most recent call last):
+  File "C:\Users\CCLeyton\bio-ml-jupyter\src\evaluate.py", line 93, in evaluate_model
+    if isinstance(model, LogisticRegression):
+                         ^^^^^^^^^^^^^^^^^^
+NameError: name 'LogisticRegression' is not defined
+2025-04-23 23:16:34,183 - INFO - 4188609191 - Evaluation complete.
+2025-04-23 23:17:30,787 - INFO - 2645888654 - Notebook 03: Evaluation & Interpretation Started
+2025-04-23 23:17:32,825 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 23:17:35,461 - INFO - data_processing - Dataset fetched.
+2025-04-23 23:17:35,479 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 23:17:35,492 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 23:17:35,501 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 23:17:35,505 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 23:17:35,520 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 23:17:35,523 - INFO - 2386870479 - Data loaded for evaluation.
+2025-04-23 23:17:35,531 - INFO - 2386870479 - Loaded trained pipeline from: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 23:17:40,341 - INFO - evaluate - Starting model evaluation...
+2025-04-23 23:17:40,380 - INFO - evaluate - Evaluation Metrics:
+accuracy     0.868852
+precision    0.812500
+recall       0.928571
+f1_score     0.866667
+roc_auc      0.950216
+dtype: float64
+2025-04-23 23:17:40,402 - INFO - evaluate - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+2025-04-23 23:17:41,149 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_confusion_matrix.png
+2025-04-23 23:17:41,852 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_roc_curve.png
+2025-04-23 23:17:42,207 - INFO - evaluate - Generating SHAP explanations...
+2025-04-23 23:17:42,744 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_shap_summary_bar.png
+2025-04-23 23:17:44,030 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_shap_summary_dot.png
+2025-04-23 23:17:45,441 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\logistic_regression_shap_dependence_ca.png
+2025-04-23 23:17:45,444 - INFO - evaluate - SHAP plots generated and saved.
+2025-04-23 23:17:45,446 - INFO - 4188609191 - Evaluation complete.
+2025-04-23 23:53:22,682 - INFO - utils - NumExpr defaulting to 8 threads.
+2025-04-23 23:53:42,183 - INFO - main - Starting pipeline run for model: logistic_regression
+2025-04-23 23:53:42,185 - INFO - data_processing - Fetching dataset ID: 45
+2025-04-23 23:53:47,269 - INFO - data_processing - Dataset fetched.
+2025-04-23 23:53:47,306 - INFO - data_processing - Raw data saved to C:\Users\CCLeyton\bio-ml-jupyter\data\heart_disease_raw.csv
+2025-04-23 23:53:47,325 - INFO - data_processing - Created binary target column 'target'. Distribution:
+target
+0    0.541254
+1    0.458746
+Name: proportion, dtype: float64
+2025-04-23 23:53:47,335 - WARNING - data_processing - Missing values detected BEFORE split:
+ca      4
+thal    2
+dtype: int64
+2025-04-23 23:53:47,338 - INFO - data_processing - Splitting data (test ratio=0.2, random_state=42)
+2025-04-23 23:53:47,355 - INFO - data_processing - Split complete. Train shape: (242, 13), Test shape: (61, 13)
+2025-04-23 23:53:47,356 - INFO - train - Starting model training: logistic_regression
+2025-04-23 23:53:47,357 - INFO - train - Fitting the full pipeline...
+2025-04-23 23:53:47,403 - INFO - train - Pipeline training completed.
+2025-04-23 23:53:47,426 - INFO - train - Trained pipeline saved to: C:\Users\CCLeyton\bio-ml-jupyter\models\logistic_regression_pipeline.joblib
+2025-04-23 23:53:47,427 - INFO - main - Evaluating the model...
+2025-04-23 23:53:47,428 - INFO - evaluate - Starting model evaluation...
+2025-04-23 23:53:47,493 - INFO - evaluate - Evaluation Metrics:
+accuracy     0.868852
+precision    0.812500
+recall       0.928571
+f1_score     0.866667
+roc_auc      0.950216
+dtype: float64
+2025-04-23 23:53:47,539 - INFO - evaluate - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.82      0.87        33
+           1       0.81      0.93      0.87        28
+
+    accuracy                           0.87        61
+   macro avg       0.87      0.87      0.87        61
+weighted avg       0.88      0.87      0.87        61
+
+2025-04-23 23:53:49,744 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\main_logistic_regression_confusion_matrix.png
+2025-04-23 23:57:55,264 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\main_logistic_regression_roc_curve.png
+2025-04-23 23:58:02,615 - INFO - evaluate - Generating SHAP explanations...
+2025-04-23 23:58:03,467 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\main_logistic_regression_shap_summary_bar.png
+2025-04-23 23:58:06,719 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\main_logistic_regression_shap_summary_dot.png
+2025-04-23 23:58:10,091 - INFO - evaluate - Plot saved to C:\Users\CCLeyton\bio-ml-jupyter\logs\main_logistic_regression_shap_dependence_ca.png
+2025-04-23 23:58:10,095 - INFO - evaluate - SHAP plots generated and saved.
+2025-04-23 23:58:10,098 - ERROR - main - Pipeline failed during model evaluation.
+Traceback (most recent call last):
+  File "C:\Users\CCLeyton\bio-ml-jupyter\main.py", line 51, in main
+    logger.info(f"Final Evaluation Metrics:\n{pd.Series(metrics)}")
+                                              ^^
+NameError: name 'pd' is not defined
+2025-04-23 23:58:10,139 - INFO - main - Pipeline finished.
