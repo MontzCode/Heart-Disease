@@ -52,7 +52,8 @@ heart-disease-classifier/
 │
 ├── data/                                  # Auto-generated on first run
 │   ├── heart_disease_raw.csv              # Raw dataset fetched from UCI
-│   └── X_processed.csv                   # Scaled and imputed features
+│   ├── X_processed.csv                   # Scaled and imputed features
+│   └── y_labels.csv                      # Binarised target labels
 │
 ├── models/                                # Auto-generated after training
 │   └── logistic_regression_pipeline.joblib
