@@ -35,27 +35,40 @@ heart-disease-classifier/
 │
 ├── src/
 │   ├── __init__.py
-│   ├── config.py              # Paths, constants, logging setup
-│   ├── data_processing.py     # Data fetching, binarisation, train/test split
-│   ├── pipeline.py            # Preprocessing pipeline (imputation + scaling)
-│   ├── train.py               # Model training and pipeline saving
-│   └── evaluate.py            # Metrics, confusion matrix, ROC curve, SHAP
+│   ├── config.py                          # Paths, constants, logging setup
+│   ├── data_processing.py                 # Data fetching, binarisation, train/test split
+│   ├── pipeline.py                        # Preprocessing pipeline (imputation + scaling)
+│   ├── train.py                           # Model training and pipeline saving
+│   └── evaluate.py                        # Metrics, confusion matrix, ROC curve, SHAP
 │
 ├── notebooks/
-│   ├── 01_data_loading.ipynb
-│   ├── 02_preprocessing.ipynb
-│   └── 03_Evaluation_Interpretation.ipynb
+│   ├── 01_data_loading.ipynb              # EDA and data inspection
+│   ├── 02_preprocessing.ipynb             # Model training walkthrough
+│   └── 03_Evaluation_Interpretation.ipynb # Evaluation metrics and SHAP analysis
 │
 ├── tests/
-│   └── test_data_processing.py
+│   ├── __init__.py
+│   └── test_data_processing.py            # Unit tests for data pipeline
 │
-├── models/                    # Saved pipeline .joblib files (auto-generated)
-├── data/                      # Raw CSV data (auto-generated)
-├── logs/                      # Log files and saved plots (auto-generated)
+├── data/                                  # Auto-generated on first run
+│   ├── heart_disease_raw.csv              # Raw dataset fetched from UCI
+│   └── X_processed.csv                   # Scaled and imputed features
 │
-├── app.py                     # Streamlit web application
-├── main.py                    # CLI entry point for full pipeline run
-├── pytest.ini
+├── models/                                # Auto-generated after training
+│   └── logistic_regression_pipeline.joblib
+│
+├── logs/                                  # Auto-generated on first run
+│   ├── pipeline.log                       # Full run log
+│   ├── logistic_regression_confusion_matrix.png
+│   ├── logistic_regression_roc_curve.png
+│   ├── logistic_regression_shap_summary_bar.png
+│   ├── logistic_regression_shap_summary_dot.png
+│   └── logistic_regression_shap_dependence_ca.png
+│
+├── app.py                                 # Streamlit web application
+├── main.py                                # CLI entry point for full pipeline run
+├── pytest.ini                             # Pytest markers config
+├── .gitignore
 └── requirements.txt
 ```
 
